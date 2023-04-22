@@ -1,12 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-'''
-@File    :   demo50.py
-
-@Modify Time      @Author    @Version    @Desciption
-------------      -------    --------    -----------
-2022-09-12 8:28   nana      1.0         highest bandwidth is 2000
-'''
 import matplotlib.pyplot as plt
 
 fig = plt.figure()
