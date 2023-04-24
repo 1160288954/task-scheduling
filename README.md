@@ -7,4 +7,4 @@ the folder of FilteredDataFromAlibaba contains all the data filtered from Alibab
 
 the folder of PythonPlot contains all the python code to plot the compare experiments and plot the scatter plot to show the postive relationship between FTG and SPD.
 
-the folder of ResultFigures contains all the figures get from our experiments.
+the folder of ResultFigures contains all the figures got from our experiments.
