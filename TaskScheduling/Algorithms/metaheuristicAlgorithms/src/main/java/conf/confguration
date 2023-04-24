@@ -1,0 +1,49 @@
+//GA ga = new GA(50, 100, url + ".txt");
+        //ACOScheduler acoScheduler = new ACOScheduler(50, 100, url + ".txt");
+        //WOAScheduler woaScheduler = new WOAScheduler(50, 100, url + ".txt");
+        //scheduler.addParallelScheduler(ga);
+        //scheduler.addParallelScheduler(acoScheduler);
+        //scheduler.addParallelScheduler(woaScheduler);
+        //IWCScheduler iwcScheduler = new IWCScheduler(50, 100, 0.25, url + ".txt");
+        //PSOScheduler psoScheduler = new PSOScheduler(50, 100, 0.8, 2, 2, url + ".txt");
+        //PSOSchedulerInt psoSchedulerInt = new PSOSchedulerInt(50, 100, 0.3, 1, 4, url + ".txt");
+        //scheduler.addParallelScheduler(iwcScheduler);
+        //scheduler.addParallelScheduler(psoScheduler);
+        //scheduler.addParallelScheduler(psoSchedulerInt);
+        //WOAPSOSchedulerInt woapsoSchedulerInt = new WOAPSOSchedulerInt(50, 100, 0.3, 1, 4, url + ".txt");
+        //KWOScheduler kwoScheduler = new KWOScheduler(50, 100, 9, url + "-" + 9 + ".txt");
+        //WOASchedulerInt woaSchedulerInt = new WOASchedulerInt(50, 100, url + ".txt");
+        //scheduler.addParallelScheduler(kwoScheduler);
+        //scheduler.addParallelScheduler(woaSchedulerInt);
+        //scheduler.addParallelScheduler(woapsoSchedulerInt);
+        //ACOSchedulerInt acoSchedulerInt = new ACOSchedulerInt(50, 100, url + ".txt");
+        //scheduler.addParallelScheduler(acoSchedulerInt);
+        //for (int i = 3; i < 10; i += 2) {
+        //    KWOAScheduler kwoaScheduler = new KWOAScheduler(50, 100, i, url + "-" + i + ".txt");
+        //    scheduler.addParallelScheduler(kwoaScheduler);
+        //}
+        //KWOAScheduler kwoaScheduler = new KWOAScheduler(50, 100, 3, url + "-" + 3 + ".txt");
+        //scheduler.addParallelScheduler(kwoaScheduler);
+        //KWOAScheduler kwoaScheduler7 = new KWOAScheduler(50, 100, 7, url + "-" + 7 + ".txt");
+        //scheduler.addParallelScheduler(kwoaScheduler7);
+        //
+        //MMASSchedulerInt mmasSchedulerInt = new MMASSchedulerInt(50, 100, 5, 0, 0.6, 0.7, 0.8, url + "-5-0-0.6-0.7-0.8.txt");
+        //MMASScheduler mmasScheduler = new MMASScheduler(50, 100, 5, 0, 0.6, 0.7, 0.8, url + "-5-0-0.6-0.7-0.8.txt");
+        //scheduler.addSerialScheduler(mmasScheduler);
+        //scheduler.addSerialScheduler(mmasSchedulerInt);
+
+Configure conf = Configure.builder()
+                .hostNumbers(hostNumber)
+                .hostCpuMax(800)
+                .hostCpuMin(500)
+                .hostMemoryMax(17)
+                .hostMemoryMin(16)
+                .bandwidthMax(101)
+                .bandwidthMin(100)
+                .jobNumber(jobNumber)
+                .outDataMax(600)
+                .outDataMin(150)
+                .spanBase(521)
+                .spanTimeMax(11)
+                .spanTimeMin(2)
+                .build();
